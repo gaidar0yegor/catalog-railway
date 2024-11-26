@@ -19,27 +19,39 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.env
 
 # Node
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# IDEs
+# IDEs and editors
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/build/
+backend/dist/
+backend/__pycache__/
+backend/app/__pycache__/
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
 
 # Docker
 .docker/
-
-# System
-.DS_Store
-Thumbs.db
